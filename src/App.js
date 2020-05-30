@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 // import Firebase from './firebase'
 import 'firebase/database';
