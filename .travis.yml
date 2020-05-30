@@ -15,6 +15,6 @@ script:
   - npm run test:ci
   - npm run build
 
-after_success:
-  - npm install -g firebase-tools
-  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
+# after_success:
+#   - npm install -g firebase-tools
+#   - firebase deploy --token $FIREBASE_TOKEN --non-interactive
