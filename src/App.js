@@ -7,11 +7,11 @@ import data from './components/data.json';
 
 function App() {
   const info = {Course: data["Course"], Students: data["Student"]};
-  const professor = {Name: "Chris Riesbeck", Courses: ["Agile Methodology"]};
+  const professor = {Name: "Chris", Courses: ["Agile Methodology"]};
   
   return (
     <div className="App">
-      <h1> this is Health Passport</h1>
+      <h1>Health Passport</h1>
       <header className="App-header">
         <h1>{professor.Name}</h1>
           <Table course={info.Course["EECS394"]} students={info.Students}/>
