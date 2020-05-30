@@ -42,7 +42,7 @@ test('firing button changes table data classes', async () => {
 
     // fire event and test classes
     fireEvent.click(button)
-    expect(entry.className).toEqual("unhealthy")
+    expect(entry.className).toEqual("healthy")
     expect(entry2.className).toEqual("unhealthy")
 
     fireEvent.click(button)
