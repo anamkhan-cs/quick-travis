@@ -7,7 +7,7 @@ import data from './components/data.json';
 
 function App() {
   const info = {Course: data["Course"], Students: data["Student"]};
-  const professor = {Name: "Chris", Courses: ["Agile Methodology"]};
+  const professor = {Name: "Chris Riesbeck", Courses: ["Agile Methodology"]};
   
   return (
     <div className="App">
