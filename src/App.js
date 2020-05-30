@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Health Passport</h1>
+      <h1> Health Passport</h1>
       <header className="App-header">
         <h1>{professor.Name}</h1>
           <Table course={info.Course["EECS394"]} students={info.Students}/>
