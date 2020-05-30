@@ -10,7 +10,7 @@ test('loads items eventually', async () => {
 
     const {findByText, getByTestId} = render(<Table course={info.Course["EECS394"]} students={info.Students} />)
     
-    const item = await findByText("xqv6932")
+    const item = await findByText("xqv6932jfjhf")
     expect(item).toBeInTheDocument()
     // expect(item).getAttribute('key').toBe('xqv6932')
 
